@@ -1,0 +1,38 @@
+name: free_spirits_game
+description: A memory game where you free trapped spirits by repeating patterns.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI and graphics
+  flame: ^1.11.0
+  flutter_svg: ^2.0.7
+
+  # Audio
+  just_audio: ^0.9.34
+
+  # State management
+  provider: ^6.0.5
+
+  # Util
+  collection: ^1.17.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/images/
+    - assets/data/
